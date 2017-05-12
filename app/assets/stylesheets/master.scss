@@ -30,6 +30,7 @@
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   font-style: italic;
   padding-top: 26px;
+  text-align: center;
 }
 
 .links {
@@ -56,11 +57,13 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   color: white;
+
 }
 
 h2 {
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 30px;
+  margin-top: 30px;
 }
 
 .title {
@@ -128,4 +131,17 @@ h2 span {
 
 ::selection {
   background-color: #9933ff;
+}
+
+.submit {
+  background-color: #9900FF;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #330066;
+}
+
+.me {
+  border-radius: 20px;
 }
